@@ -1,0 +1,187 @@
+#main {
+    background-image: url("cal3.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    padding-top: 150px;
+    padding-left: 200px
+}
+
+#mainfrm {
+    background-color: black
+}
+
+.boxi {
+    height: 290px;
+    width: 285px;
+    border: black 2px solid;
+    background-color: black;
+    border-radius: 14px;
+}
+
+.outputwindow {
+    height: 50px;
+    width: 280px;
+    border: black 1px solid;
+    margin-left: 1px;
+    margin-top: 3px;
+}
+
+.horik {
+    height: 300px;
+    width: 130px;
+    border: black 2px solid;
+    margin-left: 3px;
+    margin-top: 3px;
+    float: right;
+}
+
+.internalbox {
+    height: 30px;
+    width: 69px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    float: left;
+    text-align: center;
+    background-color: black;
+    padding-top: 15px;
+    font-size: larger;
+}
+
+.numwindow {
+    height: 253px;
+    width: 290px;
+    margin-left: 3px;
+    margin-top: 3px
+}
+
+.bottomleft {
+    height: 204px;
+    width: 140px;
+    float: left;
+    background-color: black;
+}
+
+.acequal {
+    height: 30px;
+    width: 139px;
+    background-color: black;
+    color: seashell;
+    padding-top: 15px;
+    text-align: center
+}
+
+.nums {
+    height: 123px;
+    width: 140px;
+    background-color: black;
+    margin-top: 1px
+}
+
+.zero {
+    height: 30px;
+    width: 139px;
+    background-color: black;
+    padding-top: 15px;
+    text-align: center;
+    margin-top: 15px;
+    font-size: larger
+}
+
+.bottomright {
+    height: 20px;
+    width: 140px;
+    float: left;
+    background-color: black;
+    margin-top: -1px
+}
+
+.rightbot {
+    height: 80px;
+    width: 140px;
+}
+
+.rightbotint {
+    height: 80px;
+    width: 68px;
+    float: left;
+}
+
+.rightbotint2 {
+    height: 56px;
+    width: 69px;
+    float: left;
+    background-color: black;
+    margin-left: 2px;
+    padding-top: 35px;
+    text-align: center;
+    font-size: larger
+}
+
+#numbutton {
+    height: 45px;
+    width: 50px;
+    margin-top: -15px;
+    border-radius: 90px;
+    font-size: 20px;
+    background-color: rgba(94, 87, 87, 0.24);
+    color: blanchedalmond;
+    border: 0.5px
+}
+
+#zerobutton {
+    height: 45;
+    width: 100px;
+    margin-top: -15px;
+    background-color: darkgrey;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: rgba(94, 87, 87, 0.24);
+    color: blanchedalmond;
+    border: 0.5px
+}
+
+#equalbutton {
+    height: 90;
+    width: 50px;
+    margin-top: -35px;
+    font-size: 20px;
+    background-color: rgb(221, 110, 6);
+    color: blanchedalmond;
+    border: 0.5px;
+    border-radius: 50px
+}
+
+#ACbutton {
+    height: 45;
+    width: 100;
+    margin-top: -15px;
+    font-size: 20px;
+    background-color: rgba(167, 142, 142, 0.76);
+    color: blanchedalmond;
+    border: 0.5px;
+    border-radius: 50px
+}
+
+#result {
+    height: 50px;
+    width: 280px;
+    font-size: 35px;
+    color: blanchedalmond;
+    background-color: black;
+    border: -5px
+}
+
+#opbutton {
+    height: 45px;
+    width: 50px;
+    margin-top: -15px;
+    border-radius: 90px;
+    font-size: 20px;
+    background-color: rgb(221, 110, 6);
+    color: blanchedalmond;
+    border: 0.5px
+}
+    
