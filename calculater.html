@@ -1,85 +1,83 @@
 <html>
+
 <head>
     <link rel="stylesheet" href="calculater.css">
 </head>
+
 <body>
-<title>calculater</title>
-<div id="main">
-    <div id="mainfrm">
-        <div class="boxi">
-            <div class="outputwindow"><input type="text" id="result"></div>
-            <div class="numwindow">
-                <div class="bottomleft">
-                    <div class="acequal">
-                        <button id="ACbutton" value="clear" onclick="clr()">AC
+    <title>calculater</title>
+    <div id="fullScreen">
+        <div class="calculaterFrame">
+            <div class="outPutWindow"><input type="text" id="result"></div>
+            <div class="numberWindow">
+                <div class="numberWindowLeftColumn">
+                    <div class="AllClear">
+                        <button id="AllClearButton" value="clear" onclick="clr()">AC
                     </div>
-                    <div class="nums">
-                        <div class="internalbox">
-                            <button id="numbutton" value="7" onclick="dis('7')">7
+                    <div class="numbers">
+                        <div class="numberSeprationBox">
+                            <button id="numberButton" value="7" onclick="dis('7')">7
                         </div>
-                        <div class="internalbox">
-                            <button id="numbutton" value="8" onclick="dis('8')">8
+                        <div class="numberSeprationBox">
+                            <button id="numberButton" value="8" onclick="dis('8')">8
                         </div>
-                        <div class="internalbox">
-                            <button id="numbutton" value="4" onclick="dis('4')">4
+                        <div class="numberSeprationBox">
+                            <button id="numberButton" value="4" onclick="dis('4')">4
                         </div>
-                        <div class="internalbox">
-                            <button id="numbutton" value="5" onclick="dis('5')">5
+                        <div class="numberSeprationBox">
+                            <button id="numberButton" value="5" onclick="dis('5')">5
                         </div>
-                        <div class="internalbox">
-                            <button id="numbutton" value="1" onclick="dis('1')">1
+                        <div class="numberSeprationBox">
+                            <button id="numberButton" value="1" onclick="dis('1')">1
                         </div>
-                        <div class="internalbox">
-                            <button id="numbutton" value="2" onclick="dis('2')">2
+                        <div class="numberSeprationBox">
+                            <button id="numberButton" value="2" onclick="dis('2')">2
                         </div>
                     </div>
-                    <div class="zero">
-                        <button id="zerobutton" value="0" onclick="dis('0')">0
+                    <div class="zeroNumber">
+                        <button id="zeroButton" value="0" onclick="dis('0')">0
                     </div>
                 </div>
-                <div class="bottomright">
-
+                <div class="numberWindowRightUpperColumn">
                     <div class="nums">
-                        <div class="internalbox">
-                            <button id="opbutton" value="/" onclick="dis('/')">/
+                        <div class="numberSeprationBox">
+                            <button id="opraterButton" value="/" onclick="dis('/')">/
                         </div>
-                        <div class="internalbox">
-                            <button id="opbutton" value="*" onclick="dis('*')">*
+                        <div class="numberSeprationBox">
+                            <button id="opraterButton" value="*" onclick="dis('*')">*
                         </div>
-                        <div class="internalbox">
-                            <button id="numbutton" value="9" onclick="dis('9')">9
+                        <div class="numberSeprationBox">
+                            <button id="numberButton" value="9" onclick="dis('9')">9
                         </div>
-                        <div class="internalbox">
-                            <button id="opbutton" value="-" onclick="dis('-')">-
+                        <div class="numberSeprationBox">
+                            <button id="opraterButton" value="-" onclick="dis('-')">-
                         </div>
-                        <div class="internalbox">
-                            <button id="numbutton" value="6" onclick="dis('6')">6
+                        <div class="numberSeprationBox">
+                            <button id="numberButton" value="6" onclick="dis('6')">6
                         </div>
-                        <div class="internalbox">
-                            <button id="opbutton" value="+" onclick="dis('+')">+
+                        <div class="numberSeprationBox">
+                            <button id="opraterButton" value="+" onclick="dis('+')">+
                         </div>
                     </div>
-                    <div class="rightbot">
-                        <div class="rightbotint">
-                            <div class="internalbox">
-                                <button id="numbutton" value="3" onclick="dis('3')">3
+                    <div class="numberWindowRightLowerColumn">
+                        <div class="numberWindowRightLowerLeftColumn">
+                            <div class="numberSeprationBox">
+                                <button id="numberButton" value="3" onclick="dis('3')">3
                             </div>
-                            <div class="internalbox">
-                                <button id="numbutton" value="." onclick="dis('.')">.
+                            <div class="numberSeprationBox">
+                                <button id="numberButton" value="." onclick="dis('.')">.
                             </div>
                         </div>
-                        <div class="rightbotint2">
-                            <button id="equalbutton" value="=" onclick="solve()">=
+                        <div class="numberWindowRightLowerRightColumn">
+                            <button id="equalButton" value="=" onclick="solve()">=
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </body>
 <script src="calculater.js">
-
-
 </script>
+
 </html>
